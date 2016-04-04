@@ -1,0 +1,14 @@
+<% theme.links.forEach(function(link_group){ %>
+  <div class="widget-wrap">
+  <h3 class="widget-title"><%=link_group.name%></h3>
+    <div class="widget">
+      <ul>
+        <% link_group.links.forEach(function(link){ %>
+          <li>
+            <a href="<%- url_for(link.url) %>" target="_blank"><%= link.name %></a>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+<% }) %>

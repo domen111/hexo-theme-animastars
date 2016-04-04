@@ -16,6 +16,16 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
+- link
+links:
+- name: Friends' Blogs
+  links:
+  - name: code風景區
+    url: http://codingsimplifylife.blogspot.tw/
+  - name: Chino's
+    url: https://chino.taipei/
+  - name: Coding Beans
+    url: http://codingbeans.blogspot.tw/
 
 # Miscellaneous
 google_analytics: 
