@@ -27,8 +27,10 @@ links:
     url: https://chino.taipei/
   - name: Coding Beans
     url: http://codingbeans.blogspot.tw/
-  - name: LFsWang (學長的Blog)
+  - name: LFsWang
     url: https://lfswang.github.io/
+  - name: 程式競賽解題 (scj-code)
+    url: http://scj-code.blogspot.tw/
 
 # Miscellaneous
 google_analytics: UA-49513664-2
